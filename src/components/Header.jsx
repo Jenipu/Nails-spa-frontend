@@ -39,7 +39,7 @@ function Header() {
 
         {!isAuthenticated &&
           (<Link
-            className="rounded-lg bg-secondary text-primary border border-primary py-2 px-5 font-medium hover:bg-primary hover:text-white"
+            className="rounded-lg bg-secondary text-white border border-primary py-2 px-5 font-medium hover:bg-primary hover:text-white"
             to='/login'
           >
             Iniciar sesión
