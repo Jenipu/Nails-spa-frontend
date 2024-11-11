@@ -13,7 +13,7 @@ export default function LoginPage() {
     if (isAuthenticated) {
       if (user.rol === ROLES.ADMIN) return navigate('/dashboard/users')
 
-      navigate('/dashboard/appointments')
+      navigate('/dashboard/my-appointments')
     }
   }, [isAuthenticated])
 

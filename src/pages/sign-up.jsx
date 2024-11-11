@@ -13,7 +13,7 @@ export default function SignUpPage() {
   }
 
   useEffect(() => {
-    if (isAuthenticated) navigate('/dashboard/appointments')
+    if (isAuthenticated) navigate('/dashboard/my-appointments')
   }, [isAuthenticated])
 
   return (
