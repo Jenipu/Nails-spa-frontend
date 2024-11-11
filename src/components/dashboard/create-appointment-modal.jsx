@@ -114,7 +114,7 @@ export function CreateAppointmentModal({ isOpen, revalidate, onOpenChange }) {
                       className='w-full font-medium text-gray-800 text-sm'
                       htmlFor="worker"
                     >
-                      Trabajador
+                      Servicio
                     </label>
 
                     <select
@@ -124,7 +124,7 @@ export function CreateAppointmentModal({ isOpen, revalidate, onOpenChange }) {
                       {
                         servicesOptions.map((service) => {
                           const serviceName = service.service.name
-                          return <option key={service.id} value={service.id}>{`${serviceName}`}</option>
+                          return <option key={service.id} value={service.id}>{`${serviceName} - ${service.worker.name}`}</option>
                         })
                       }
                     </select>
