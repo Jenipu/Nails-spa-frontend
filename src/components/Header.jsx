@@ -30,7 +30,7 @@ function Header() {
 
           {isAuthenticated && (
             <Link
-              to='/dashboard/appointments'
+              to='/dashboard/my-appointments'
             >
               Citas
             </Link>
