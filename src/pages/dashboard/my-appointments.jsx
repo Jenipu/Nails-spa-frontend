@@ -35,7 +35,6 @@ export default function MyAppointmentsPage() {
     onClose()
   }
 
-  if (myAppointments.length === 0) return <h5 className='font-medium text-2xl text-center text-gray-800'>No se encontraron citas</h5>
 
   return (
     <>
