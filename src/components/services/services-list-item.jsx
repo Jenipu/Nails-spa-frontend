@@ -19,7 +19,7 @@ export function ServicesListItem({ service }) {
           </p>
         </main>
 
-        <footer className='w-full flex justify-between px-4 pb-4'>
+        <footer className='w-full flex justify-center px-4 pb-4'>
           <button
             className='bg-primary border border-primary py-2 px-5 rounded-lg font-medium text-white hover:opacity-80'
             onClick={onOpen}
